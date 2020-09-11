@@ -9,6 +9,10 @@ namespace practice_Repositariy
         {
             ArrayListPr inst = new ArrayListPr();
             inst.ShowYourself();
+
+            NewClass cla = new NewClass("Mary", 25);
+
+            Console.WriteLine(cla.Name + " " + cla.Number);
         }
     }
 }
