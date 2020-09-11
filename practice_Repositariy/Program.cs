@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Collections;
 
 namespace practice_Repositariy
 {
@@ -10,6 +7,8 @@ namespace practice_Repositariy
     {
         static void Main(string[] args)
         {
+            ArrayListPr inst = new ArrayListPr();
+            inst.ShowYourself();
         }
     }
 }
