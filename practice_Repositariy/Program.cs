@@ -1,5 +1,8 @@
 ﻿using System;
-using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace practice_Repositariy
 {
@@ -13,6 +16,7 @@ namespace practice_Repositariy
             NewClass cla = new NewClass("Mary", 25);
 
             Console.WriteLine(cla.Name + " " + cla.Number);
+
         }
     }
 }
